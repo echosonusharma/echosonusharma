@@ -2,7 +2,6 @@
 
 ## I'm a software Developer.
 
-Here are some ideas to get you started:
 
 - 🔭 I’m currently working on a React based project.
 - 🌱 I’m currently learning Javascript, React.
