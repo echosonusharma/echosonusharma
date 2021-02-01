@@ -1,4 +1,4 @@
-<h1> Hi, I'm Sonu! <img src="https://media.giphy.com/media/LPkczVwUYcMbXsRCdP/giphy.gif" width="50" height="30px"></h1>
+<h1> Hi, I'm Sonu! <img src="https://media.giphy.com/media/LPkczVwUYcMbXsRCdP/giphy.gif" width="50" height="50px"></h1>
 
 
 
