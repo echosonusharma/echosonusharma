@@ -7,6 +7,6 @@ const sonu = {
  code: [Javascript, TypeScript, HTML, CSS, C++, Python],
  frontend: [React, NextJS, TailwindCSS, ChakraUI],
  backend: [Node, PostgreSQl],
- hotel: "Travigo"
+ hotel: "trivago"
 };
 ```
