@@ -1,10 +1,1 @@
-### Hi, i'm sonu 👋
-
-## I'm a software Developer.
-
-
-- 🔭 I’m currently working on a React based project.
-- 🌱 I’m currently learning Javascript, React.
-- 👯 I’m looking to collaborate on some Open Source projects.
-- 🤔 I’m looking for help with React.
-- 💬 Ask me about Full-Stack Development
+<h2> Hi, I'm Sonu! <img src="https://media.giphy.com/media/LPkczVwUYcMbXsRCdP/giphy.gif" width="50"></h2>
