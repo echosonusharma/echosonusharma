@@ -16,3 +16,5 @@ sonu["currentTask"].push(addTask);
 
 alert(sonu.currentTask);
 ```
+
+<img src="https://media.giphy.com/media/1nUJVs76usR4ryBmCI/giphy.gif"  width="500px"/>
