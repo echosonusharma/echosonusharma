@@ -1,4 +1,4 @@
-## Hi i'm Sonu! <img src="https://media.giphy.com/media/iigp4VDyf5dCLRlGkm/giphy.gif" width="30">
+## Hi, i'm Sonu! <img src="https://media.giphy.com/media/iigp4VDyf5dCLRlGkm/giphy.gif" width="30">
 
 
 ```javascript
