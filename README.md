@@ -4,6 +4,7 @@
 ```javascript
 const sonu = {
   code: [Javascript, TypeScript, HTML, CSS, C++, Python],
+  architecture: [Monolithic, Microservice, Layered]
   frontend: [React, NextJS, TailwindCSS, ChakraUI],
   backend: [Node, PostgreSQl],
   currentTask: [],
