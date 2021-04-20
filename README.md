@@ -7,7 +7,7 @@ const sonu = {
   architecture: [Monolithic, Microservice, Layered],
   frontend: [React, NextJS, TailwindCSS, ChakraUI],
   backend: [Node, PostgreSQl],
-  currentTask: [],
+  currentTask: new Array,
   hotel: "trivago",
 };
 
