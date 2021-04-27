@@ -3,7 +3,7 @@
 
 ```javascript
 const sonu = {
-  code: [Javascript, TypeScript, HTML, CSS, C++, Elixir],
+  code: [Javascript, TypeScript, HTML, CSS, python],
   architecture: [Monolithic, Microservice, Layered],
   frontend: [React, NextJS, TailwindCSS, ChakraUI],
   backend: [Node, PostgreSQl],
