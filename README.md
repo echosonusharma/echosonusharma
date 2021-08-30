@@ -6,7 +6,7 @@ const sonu = {
   code: [Javascript, TypeScript, Rust, Python, HTML, CSS],
   architecture: [Monolithic, Microservice, Layered],
   frontend: [React, NextJS, TailwindCSS, ChakraUI],
-  backend: [Node, PostgreSQl, MongoDB],
+  backend: [Node, PostgreSQl, MySql, MongoDB, Redis],
   currentTask: new Array,
   hotel: "trivago",
 };
