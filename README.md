@@ -12,9 +12,7 @@ const sonu = {
   hotel: "trivago",
 };
 
-let addTask = ["survive 2021!!!"];
-
-sonu["currentTask"].push(addTask);
+sonu["currentTask"].push(["survive 2022!!!"]);
 
 alert(sonu.currentTask);
 ```
