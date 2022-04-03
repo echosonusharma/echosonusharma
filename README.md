@@ -1,19 +1,31 @@
 ## Hi, i'm Sonu! <img src="https://media.giphy.com/media/iigp4VDyf5dCLRlGkm/giphy.gif" width="30">
 
 
-```javascript
-const sonu = {
-  code: [Javascript, TypeScript, Rust, Python, HTML, CSS],
-  architecture: [Monolithic, Microservice, Layered],
-  frontend: [React, NextJS, TailwindCSS, ChakraUI],
-  backend: [Node, Express],
-  database: [PostgreSQl, MySql, MongoDB, Redis],
-  currentTask: new Array(1),
-  hotel: "trivago",
-};
+```rs
+    struct Resume<'a> {
+        code: Vec<&'a str>,
+        architecture: Vec<&'a str>,
+        frontend: Vec<&'a str>,
+        backend: Vec<&'a str>,
+        database: Vec<&'a str>,
+        current_task: Vec<&'a str>,
+        hotel: &'a str,
+    }
 
-sonu["currentTask"].push(["survive 2022!!!"]);
+    let mut sonu = Resume {
+        code: vec!["Javascript", "TypeScript", "Rust", "Python", "HTML", "CSS"],
+        architecture: vec!["Monolithic", "Microservice", "Layered"],
+        frontend: vec!["React", "NextJS", "TailwindCSS", "ChakraUI"],
+        backend: vec!["Node", "Express"],
+        database: vec!["PostgreSQl", "MySql", "MongoDB", "Redis"],
+        current_task: vec![],
+        hotel: "trivago",
+    };
 
-alert(sonu.currentTask);
+    sonu.current_task.push("survive 2022!");
+
+    sonu.current_task
+        .into_iter()
+        .for_each(|x| println!("{}", x));
 ```
 
