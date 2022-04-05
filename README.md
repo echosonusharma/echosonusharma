@@ -12,6 +12,13 @@
         hotel: &'a str,
     }
 
+    impl Resume<'_> {
+        fn current_tasks(&self) {
+            let tasks = &self.current_task;
+            tasks.into_iter().for_each(|x| println!("{}", x));
+        }
+    }
+
     let mut sonu = Resume {
         code: vec!["Javascript", "TypeScript", "Rust", "Python", "HTML", "CSS"],
         architecture: vec!["Monolithic", "Microservice", "Layered"],
@@ -24,8 +31,6 @@
 
     sonu.current_task.push("survive 2022!");
 
-    sonu.current_task
-        .into_iter()
-        .for_each(|x| println!("{}", x));
+    sonu.current_tasks();
 ```
 
