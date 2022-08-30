@@ -20,7 +20,7 @@
     }
 
     let mut sonu = Resume {
-        code: vec!["Javascript", "TypeScript", "Rust", "Python", "HTML", "CSS"],
+        code: vec!["Javascript", "TypeScript", "Rust", "HTML", "CSS"],
         architecture: vec!["Monolithic", "Microservice", "Layered"],
         frontend: vec!["React", "NextJS", "TailwindCSS", "ChakraUI"],
         backend: vec!["Node", "Express"],
