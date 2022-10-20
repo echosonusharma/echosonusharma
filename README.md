@@ -2,29 +2,30 @@
 
 
 ```rs
-    struct Resume<'a> {
-        code: Vec<&'a str>,
-        architecture: Vec<&'a str>,
-        frontend: Vec<&'a str>,
-        backend: Vec<&'a str>,
-        database: Vec<&'a str>,
-        current_task: Vec<&'a str>,
-        hotel: &'a str,
-    }
+struct Resume<'a> {
+    code: Vec<&'a str>,
+    architecture: Vec<&'a str>,
+    frontend: Vec<&'a str>,
+    backend: Vec<&'a str>,
+    database: Vec<&'a str>,
+    current_task: Vec<&'a str>,
+    hotel: &'a str,
+}
 
-    impl Resume<'_> {
-        fn current_tasks(&self) {
-            let tasks = &self.current_task;
-            tasks.into_iter().for_each(|x| println!("{}", x));
-        }
+impl Resume<'_> {
+    fn current_tasks(&self) {
+        let tasks = &self.current_task;
+        tasks.into_iter().for_each(|x| println!("{}", x));
     }
+}
 
+fn main() {
     let mut sonu = Resume {
-        code: vec!["Javascript", "TypeScript", "Rust", "HTML", "CSS"],
+        code: vec!["Javascript", "TypeScript", "HTML", "CSS"],
         architecture: vec!["Monolithic", "Microservice", "Layered"],
-        frontend: vec!["React", "NextJS", "TailwindCSS", "ChakraUI"],
+        frontend: vec!["React", "NextJS", "TailwindCSS", "Antd"],
         backend: vec!["Node", "Express"],
-        database: vec!["PostgreSQl", "MySql", "MongoDB", "Redis"],
+        database: vec!["PostgreSQL", "MySQL", "MongoDB", "Redis"],
         current_task: vec![],
         hotel: "trivago",
     };
@@ -32,5 +33,6 @@
     sonu.current_task.push("survive 2022!");
 
     sonu.current_tasks();
+}
 ```
 
