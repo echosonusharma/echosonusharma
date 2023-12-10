@@ -1,38 +1,12 @@
-## Hi, i'm Sonu! <img src="https://media.giphy.com/media/iigp4VDyf5dCLRlGkm/giphy.gif" width="30">
-
-
 ```rs
-struct Resume<'a> {
-    code: Vec<&'a str>,
-    architecture: Vec<&'a str>,
-    frontend: Vec<&'a str>,
-    backend: Vec<&'a str>,
-    database: Vec<&'a str>,
-    current_task: Vec<&'a str>,
-    hotel: &'a str,
-}
-
-impl Resume<'_> {
-    fn current_tasks(&self) {
-        let tasks = &self.current_task;
-        tasks.into_iter().for_each(|x| println!("{}", x));
-    }
-}
-
 fn main() {
-    let mut sonu = Resume {
-        code: vec!["Javascript", "TypeScript", "HTML", "CSS"],
-        architecture: vec!["Monolithic", "Microservice", "Layered"],
-        frontend: vec!["React", "NextJS", "TailwindCSS", "Antd"],
-        backend: vec!["Node", "Express"],
-        database: vec!["PostgreSQL", "MySQL", "MongoDB", "Redis"],
-        current_task: vec![],
-        hotel: "trivago",
-    };
+    println!("Hi, Im Sonu.");
 
-    sonu.current_task.push("survive 2022!");
+    let mut languages: Vec<&str> = Vec::new();
 
-    sonu.current_tasks();
+    languages.push("JS/TS");
+    languages.push("Go");
+
+    println!("I can code in {}.", languages.join(", "))
 }
 ```
-
