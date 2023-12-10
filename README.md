@@ -1,6 +1,6 @@
 ```rs
 fn main() {
-    println!("Hi, Im Sonu.");
+    println!("Hi, I'm Sonu.");
 
     let mut languages: Vec<&str> = Vec::new();
 
